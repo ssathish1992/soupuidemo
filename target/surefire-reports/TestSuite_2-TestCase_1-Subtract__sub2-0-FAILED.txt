@@ -1,0 +1,34 @@
+Status: FAILED
+Time Taken: 21345
+Size: 0
+Timestamp: Wed Jul 28 10:25:34 IST 2021
+TestStep: Subtract - sub2
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://www.dneonline.com refused
+
+----------------- Properties ------------------------------
+Endpoint: http://www.dneonline.com/calculator.asmx
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   \r
+   <soapenv:Header/>
+   \r
+   <soapenv:Body>
+      \r
+      <tem:Subtract>
+         \r
+         <tem:intA>10</tem:intA>
+         \r
+         <tem:intB>20</tem:intB>
+         \r
+      </tem:Subtract>
+      \r
+   </soapenv:Body>
+   \r
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

@@ -1,0 +1,34 @@
+Status: FAILED
+Time Taken: 68004
+Size: 0
+Timestamp: Wed Jul 28 10:04:45 IST 2021
+TestStep: Multiply - Mul2
+
+----------------- Messages ------------------------------
+java.net.SocketTimeoutException: Read timed out
+
+----------------- Properties ------------------------------
+Endpoint: http://www.dneonline.com/calculator.asmx
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   \r
+   <soapenv:Header/>
+   \r
+   <soapenv:Body>
+      \r
+      <tem:Multiply>
+         \r
+         <tem:intA>989</tem:intA>
+         \r
+         <tem:intB>7</tem:intB>
+         \r
+      </tem:Multiply>
+      \r
+   </soapenv:Body>
+   \r
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

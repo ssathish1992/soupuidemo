@@ -1,0 +1,18 @@
+2021-07-28 10:30:04,079 WARN  [SoapUI] Missing folder [C:\Users\08980D744\Desktop\JigSaw\my-app\ext] for external libraries
+2021-07-28 10:30:04,252 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\08980D744\soapui-settings.xml]
+2021-07-28 10:30:05,042 INFO  [WsdlProject] Loaded project from [file:/C:/Users/08980D744/Desktop/JigSaw/my-app/calculator-soapui-project.xml]
+2021-07-28 10:30:05,188 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [calculator]
+2021-07-28 10:30:05,189 INFO  [SoapUITestCaseRunner] Running Project [calculator], runType = SEQUENTIAL
+2021-07-28 10:30:05,211 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-07-28 10:30:05,219 INFO  [SoapUITestCaseRunner] running step [Add - Add1]
+2021-07-28 10:30:06,476 INFO  [SoapUITestCaseRunner] running step [Divide - Div1]
+2021-07-28 10:30:07,045 INFO  [SoapUITestCaseRunner] running step [Multiply - Mul1]
+2021-07-28 10:30:07,557 INFO  [SoapUITestCaseRunner] running step [Subtract - Request 1]
+2021-07-28 10:30:08,374 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 3139ms, status: FINISHED
+2021-07-28 10:30:08,379 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-07-28 10:30:08,379 INFO  [SoapUITestCaseRunner] running step [Subtract - sub2]
+2021-07-28 10:30:09,758 INFO  [SoapUITestCaseRunner] running step [Multiply - Mul2]
+2021-07-28 10:30:12,756 INFO  [SoapUITestCaseRunner] running step [Divide - Div2]
+2021-07-28 10:30:13,256 INFO  [SoapUITestCaseRunner] running step [Add - Add2]
+2021-07-28 10:30:14,745 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 6362ms, status: FINISHED
+2021-07-28 10:30:14,745 INFO  [SoapUITestCaseRunner] Project [calculator] finished with status [FINISHED] in 9553ms
